@@ -5,7 +5,7 @@ from urllib.parse import quote
 
 
 HOST = "0.0.0.0"
-PORT = 5000
+PORT = 7213
 
 
 def get_location(ip):
