@@ -1,0 +1,7 @@
+services:
+  ip-server:
+    build: .
+    container_name: ip-server
+    restart: unless-stopped
+    ports:
+      - "7213:7213/tcp"
